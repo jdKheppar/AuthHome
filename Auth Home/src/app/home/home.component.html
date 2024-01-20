@@ -1,0 +1,88 @@
+
+<style>
+/* Basic styles, you can customize these as needed */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+footer {
+  background-color: #917b7b;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+.lefti{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  
+}
+.fa-sign-out{
+  margin-left: 10px;
+  cursor: pointer;
+  
+}
+.innerContainer{
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  border: 5px solid black;
+}
+
+</style>
+<body>
+
+    <header>
+      <h1>Welcome to Your Website</h1>
+      <p>Enjoy your stay!</p>
+    </header>
+  
+    <main>
+      <p>This is some random text describing your awesome website. You can add more content here.</p>
+      <p>Feel free to explore and discover more.</p>
+      
+      
+    </main>
+    <div class="lefti">
+      <div class="innerContainer" (click)="logOut()">
+        <p>Sign out</p>
+      <i class="fa fa-sign-out" style="font-size:36px"></i>
+      </div>
+      
+    </div>
+   
+    
+   
+
+  
+  </body>
+
+
+
+
